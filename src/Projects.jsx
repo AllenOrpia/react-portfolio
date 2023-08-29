@@ -25,8 +25,8 @@ export default function Projects() {
                         
                     <img src={port} alt="" className='w-40 h-40 mx-auto' />
                     <div className='flex justify-between px-5 my-3'>
-                        <a href="https://serene-anchorage-99994-207a1d3f8d8d.herokuapp.com/" className='text-blue-500 underline underline-offset-2'>Source</a>
-                        <a href="https://github.com/AllenOrpia/CalGems" className='text-blue-500 underline underline-offset-2'>Code</a>
+                        <a href="https://allenorpia.github.io/react-portfolio/" className='text-blue-500 underline underline-offset-2'>Source</a>
+                        <a href="https://github.com/AllenOrpia/react-portfolio" className='text-blue-500 underline underline-offset-2'>Code</a>
                     </div>
         
                     
