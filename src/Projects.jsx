@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import port from '/portfolio.png'
 import gem from '/gem.png'
-
+import openai from '/open-ai-logo.png'
 
 export default function Projects() {
     return (
@@ -55,6 +55,27 @@ export default function Projects() {
                   <p>Languages - JavaScript, HTML, CSS</p>
                   <p>Libraries - Bootstrap</p>
                   <p>Frameworks - Express</p>
+                  <p>Databases - MongoDB</p>
+
+                 
+    
+              </div>
+
+              <div className='text-center shadow-md p-10 rounded-xl my-10 flex-1 dark:shadow-blue-500'>
+                  <h3 className='mb-3 text-3xl font-bold font-signature'>WALL-E</h3>
+                  <img src={openai} alt="gem image" className='mb-3 w-40 h-40 mx-auto' />
+                  <div className='flex justify-between px-5 my-3'>
+                    <a href="https://wall-e2-0.onrender.com" className='text-blue-500 underline underline-offset-2'>Source</a>
+                    <a href="https://github.com/AllenOrpia/WALL-E2.0" className='text-blue-500 underline underline-offset-2'>Code</a>
+                  </div>
+                  <p className='mb-3 leading-8'>MERN stack application built with the use of OPEN AI's DALL-E through RapidApi to generate
+                  custom and creative images based on user feedback. With WALL-E users can create and share their creations to the community by sharing 
+                  or posting their newly generated image to the homepage for the world to see. 
+                  </p>
+                  <h4><span className='text-blue-500 font-medium text-lg'>What I used</span></h4>
+                  <p>Languages - JavaScript, HTML, CSS</p>
+                  <p>Libraries - TailwindCSS, Material UI</p>
+                  <p>Frameworks - Express, React</p>
                   <p>Databases - MongoDB</p>
 
                  
